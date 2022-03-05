@@ -278,7 +278,8 @@ h1,h2,h3,h4{
 
 footer{
     background-color: #dae7fb;
-    padding: 5rem 0;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 .footer__wrapper{
@@ -317,4 +318,8 @@ footer{
     margin-bottom: .5rem;
     color: #454545;
     cursor: pointer;
+}
+
+footer p{
+    text-align: center;
 }
