@@ -275,3 +275,46 @@ h1,h2,h3,h4{
         padding: 0 5rem;
     }
 }
+
+footer{
+    background-color: #dae7fb;
+    padding: 5rem 0;
+}
+
+.footer__wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.left__title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.left__desc{
+    margin-bottom: 2rem;
+    color: #454545;
+}
+.left ul{
+    display: flex;
+    gap: 10px;
+}
+.left ul li{
+    margin-bottom: .5rem;
+    color: #626262;
+    cursor: pointer;
+}
+
+.footer__title{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #393939;
+}
+
+.footer__list{
+    margin-bottom: .5rem;
+    color: #454545;
+    cursor: pointer;
+}
