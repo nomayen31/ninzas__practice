@@ -8,11 +8,36 @@
     <title>Website Design Raw Css</title>
 </head>
 <body>
-    
+    <header class="header">
+       <div class="container">
+            <nav>
+                <div class="logo"><a href="#" class="header__link">SB UI Kit Pro</a></div>
+                <ul class="nav__items">
+                    <li class="nav__list">
+                        <a href="#home" class="nav__link">Home </a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#landing" class="nav__link">Landing <ion-icon name="chevron-forward-outline" id="nav__icon"></ion-icon></a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#page" class="nav__link">Pages <ion-icon name="chevron-forward-outline" id="nav__icon"></ion-icon></a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#documentation" class="nav__link">Documentation<ion-icon name="chevron-forward-outline" id="nav__icon"></ion-icon></a>
+                    </li>
+                    <li class="nav__list buy__now">
+                        <a href="#" class="nav__link  buy__now-link">Buy Now<ion-icon name="arrow-forward-outline" id="nav__icon"></ion-icon></a>
+                    </li>
+                </ul>
+
+                <ion-icon name="menu-outline" id="toggle"></ion-icon>
+            </nav>
+       </div>
+    </header>
     <main>
 
         <!-- TODO: Hero Section--------- -->
-        <section class="section hero__section">
+        <section class="section hero__section" id="home">
             <div class="container">
                 <div class="hero__wrapper">
                     <div class="hero__left">
@@ -40,7 +65,7 @@
         </section>
 
         <!-- TODO: Landing Pages Section----------------- -->
-        <section class="section landing__page">
+        <section class="section landing__page" id="page">
             <div class="container">
                 <div class="page__info">
                     <h1 class="page__title">Landing Pages</h1>
@@ -103,7 +128,7 @@
         </section>
 
         <!-- TODO: Inner Page--------------- -->
-        <section class="section inner__page">
+        <section class="section inner__page" id="landing">
             <div class="container">
                 <div class="inner__page-info">
                     <h1 class="inner__page-title">Inner Pages</h1>
@@ -186,7 +211,7 @@
         </section>
 
         <!-- TODO: Documentation---------- -->
-        <section class="section documentation">
+        <section class="section documentation" id="documentation">
             <div class="container">
                 <div class="documentation__info">
                     <h1 class="documentation__title">Documentation</h1>
@@ -281,6 +306,8 @@
         <p>&copy; redwan | all rights reserved</p>
     </footer>
 
+
+    <script src="app.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 </html>

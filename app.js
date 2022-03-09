@@ -22,3 +22,5 @@ function removeActiveLink(list) {
         item.classList.remove('active')
     })
 }
+
+
