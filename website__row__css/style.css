@@ -217,7 +217,21 @@ nav{
 /* TODO: Landing Page----------- */
 .landing__page{
     background-color: #f2f6fc;
+    position: relative;
+    padding: 2rem 0;
 }
+.curved{
+    background-image: url(./assets/picture/curved.png);
+    position: absolute;
+    top: -85px;
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
 .page__info{
     max-width: 600px;
     padding: 2rem 3rem;
@@ -333,6 +347,7 @@ nav{
 /* TODO: Project------------ */
 .project{
     background-color: #f2f6fc;
+    position: relative;
 }
 
 /* TODO: Documentation------------ */
@@ -395,9 +410,10 @@ nav{
 }
 
 footer{
-    background-color: #dae7fb;
+    background-color: #f2f6fc;
     padding-top: 5rem;
     padding-bottom: 2rem;
+    position: relative;
 }
 
 .footer__wrapper{
